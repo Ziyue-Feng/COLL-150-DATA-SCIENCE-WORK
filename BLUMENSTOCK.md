@@ -1,4 +1,6 @@
-# AUG 25: RESPONSE TO JOSHUA BLUMENSTOCK'S ARTICLE
+# RESPONSE TO JOSHUA BLUMENSTOCK'S ARTICLE
+
+### Ziyue Feng AUG.25
 
 I think Professor Joshua Blumenstock’s warning is practically meaningful, instead of being catastrophizing. There is overstating about the power uses of data science as many people believe big data is so reliable and representing that everything can be achieved by only a stream of algorithms. Joshua points out a series of limitations and problems of up-to-date  big data analysis, most of which sounds right to me. And that’s why I agree on his idea: data science should be humbler than the deified image presented to the public.
 
