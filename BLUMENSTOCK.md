@@ -10,3 +10,4 @@ Second, a humbler data science also means it is necessary to make this technolog
 
 But we should not underestimate the power and potential of data science and these advanced approaches. It is an evolution from conventional data. It generally provides the world with more accurate, more efficient and more accessible approaches to analyze International development nowadays. All we have to pay attention to is that there are flaws and side effects like lack of regulation to privacy offense. There are rooms to improve for advanced approaches and old, conventional data is still irreplaceable.
 
+### Blumenstock, Joshua. “Don't Forget People in the Use of Big Data for Development.” Nature News, Nature Publishing Group, 10 Sept. 2018, www.nature.com/articles/d41586-018-06215-5.
