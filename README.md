@@ -1,4 +1,4 @@
-# COLL 150 DATA SCIENCE
+# COLL 150 DATA SCIENCE/HUMAN DEVELOPMENT
 
 ## Ziyue Feng's Assignments Index
 
