@@ -3,3 +3,4 @@
 ## Ziyue Feng's Assignments Index
 
 [AUG25 Response](BLUMENSTOCK.md)
+[AUG27 Response](HANSTEDTALK.md)
