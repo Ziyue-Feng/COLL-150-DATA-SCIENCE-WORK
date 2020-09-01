@@ -8,4 +8,5 @@ What makes me and other individuals have a wrong perception about them is not pr
 
 
 
+
 Rosling, H. (2020). The best stats you've ever seen. Ted.com. Retrieved 25 August 2020, from https://www.ted.com/talks/hans_rosling_the_best_stats_you_ve_ever_seen?language=en.
