@@ -5,3 +5,7 @@
 [AUG25 Response](BLUMENSTOCK.md)
 
 [AUG27 Response](HANSTEDTALK.md)
+
+[Response to Sen's Intro]
+
+[Human Development & Data Science Insights](INSIGHTS.md)
