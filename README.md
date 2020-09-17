@@ -6,6 +6,6 @@
 
 [AUG27 Response](HANSTEDTALK.md)
 
-[Response to Sen's Intro]
+[Response to Sen's Intro](SEN.md)
 
 [Human Development & Data Science Insights](INSIGHTS.md)
