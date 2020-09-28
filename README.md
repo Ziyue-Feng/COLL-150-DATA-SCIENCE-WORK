@@ -8,4 +8,6 @@
 
 [Response to Sen's Intro](SEN.md)
 
-[Human Development & Data Science Insights](INSIGHTS.md)
+[Human Development & Data Science Insights #1](INSIGHTS.md)
+
+[Annotated Bibilography: Poverty alleviation and assessment](POVERTY.md)
