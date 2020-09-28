@@ -12,7 +12,7 @@ Periodic Pattern Mining:
 
 Consider a database of transactions depicted below. Each transaction is a set of items (symbols), and transactions are ordered by their time.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/Ziyue-Feng/COLL-150-DATA-SCIENCE-WORK/blob/master/1.png)
 
 Here, the database contains seven transactions labeled T1 to T7. This database format can be used to represent all kind of data. However, for our example, assume that it is a database of customer transactions in a retail store. The first transaction represents that a customer has bought the items a and c together. For example, a could mean a bread, and c could mean jam.
 
