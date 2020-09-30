@@ -11,3 +11,5 @@
 [Human Development & Data Science Insights #1](INSIGHTS.md)
 
 [Annotated Bibilography: Poverty alleviation and assessment](POVERTY.md)
+
+[SEP29 Response to Anderson and Kitchin ](ANDERSON.md)
