@@ -1,5 +1,10 @@
 # COLL 150 DATA SCIENCE/HUMAN DEVELOPMENT
 
+
+
+***
+Hi I am Ziyue and in sophomore year. I have my first year in University of St Andrews so this is actually my first year here and I am excited to experience life at W&M. I major in ECON and I am glad to learn more about data science, especially about how its progress essentially changes people's behavior:)
+***
 ## Ziyue Feng's Assignments Index
 
 [AUG25 Response](BLUMENSTOCK.md)
