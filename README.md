@@ -18,3 +18,5 @@ Hi I am Ziyue and in sophomore year. I have my first year in University of St An
 [Annotated Bibilography: Poverty alleviation and assessment](POVERTY.md)
 
 [SEP29 Response to Anderson and Kitchin ](ANDERSON.md)
+
+[Human Development & Data Science Insights #2](INSIGHTSS.md)
