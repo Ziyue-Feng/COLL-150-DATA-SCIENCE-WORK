@@ -25,4 +25,8 @@ Hi I am Ziyue and in sophomore year. I have my first year in University of St An
 
 [Literature Review: Poverty assessment in China](REVIEW.md)
 
+[Central Research Question](CRQ.md)
+
 [In Class Essay: Human Development & Data Science Knowledge Creation](ESSAY.md)
+
+[Data Science Methodology: Assignment 3](METHOD.md)
