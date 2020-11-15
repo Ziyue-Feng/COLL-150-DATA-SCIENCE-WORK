@@ -1,3 +1,4 @@
+# Assignment 3: Data Science Methods
 
 ## Introduction 
 
@@ -15,16 +16,18 @@ Based on these considerations, my research will focus on with the help of remote
 DMSP/OLS night-time data are annual night-time cloud-free image composites of lights of the globe collected by the DMSP/OLS sensors on a low-earth orbiting satellite (at 833 km altitude above earth). DMSP operates satellites in sun-synchronous orbits with night-time overpasses at 8–10 pm local time. With a swath width of 3000 km and 14 orbits per day, each OLS instrument is capable of generating a complete coverage of night-time data in a 24-hour period. The OLS is an oscillating scan radiometer with two spectral bands. The visible band straddles the visible and near-infrared (VNIR) portion of the spectrum (0.5– 0.9 lm) and the thermal band covers the 10.5–12.5 lm spectrum range. At night, the visible band is intensified using a photomultiplier tube (PMT) to permit detection of clouds illuminated by moonlight. The light intensification enables observation of faint sources of VNIR emissions at night on the earth’s surface, including cities, towns, villages, gas flares, heavily lit fishing boats, and fires (Elvidge et al., 1997).  And nighttime images are collected using the VNIR band, which is intensified by a photomultiplier tube to detect radiance emission down to the 5E−1° Watts/cm2/sr range. There are two spatial resolutions of nighttime images: “fine” resolution data have a nominal spatial resolution of 0.56 km, while “smooth” data have a nominal spatial resolution of 2.7 km with 5 × 5 block averaging.
 The version 4 DMSP/OLS night-time image products from 2007 to 2009 (30 arc seconds spatial resolution), released by NOAA-NGDC in 2010 at http:// www.ngdc.noaa.gov/dmsp/ downloadV4composites.html, were used for this study. The data is derived by multiplying the average visible band digital number (DN) of cloud-free light detections with the percent frequency of light detection. The inclusion of the percent frequency of detection term normalizes the resulting digital values for variations in the persistence of lighting. (Wang, 2012)
 
-
-
+![DMSP/OLS night-time lights Imagery of China 2007-2009](https://github.com/Ziyue-Feng/COLL-150-DATA-SCIENCE-WORK/raw/master/%E6%88%AA%E5%B1%8F2020-11-15%20%E4%B8%8B%E5%8D%885.51.59.png)
+##### DMSP/OLS night-time lights Imagery of China 2007-2009
 
 
 Each pixel in the imageries has a DN value ranging from 0 to 63. Higher DN values associate with more intense lights. The regional total luminance of night-time light can be calculated using the follow Equation (Zhao et al., 2011): 
 
+![](https://github.com/Ziyue-Feng/COLL-150-DATA-SCIENCE-WORK/raw/master/%E6%88%AA%E5%B1%8F2020-11-15%20%E4%B8%8B%E5%8D%886.12.54.png)
 
 where B is the regional total luminance of night-time light; Bi is the image DN value, ranging from 1 to 63; Ni is the number of pixels that have a DN value of Bi. 
 Poverty is caused by comprehensive aspects of the socio- economic situations. Administrative areas can also affect the poverty evaluation results in different regions. As the above total luminance of night-time light can only represent an intuitive impression of socio-economic activities at night for a region, we used an average light index (ALI) that can better represent the average level of different regions in this study, 
 
+![](https://github.com/Ziyue-Feng/COLL-150-DATA-SCIENCE-WORK/raw/master/%E6%88%AA%E5%B1%8F2020-11-15%20%E4%B8%8B%E5%8D%886.13.01.png)
 
 where L is the average light index (ALI); B is the regional total luminance of night-time light; N is the sum of the number of all the pixels with DN value ranging from 1 to 63. 
 
@@ -35,13 +38,16 @@ where L is the average light index (ALI); B is the regional total luminance of n
 Including the above night-time lights data, other databases from electricity uses, greenhouse gas output to beds in local healthcare institutions will be collectively counted and weighted for a comprehensive index to show up the situation more in a life quality basis instead of economic or income basis. Most of these data will be collected either from the data updated by local bureau or from the National yearbook. It is named as Quality of Rural Life (QRL). The final assessment index system as QRL involves five aspects including income and expenditure, living conditions and cultural life, infrastructure, public service and social security, and ecological environment. 
 Since the index selected involves many aspects, and most of them have complex relationships. Considering the characteristics of the index, the coefficient of variation method is used to determine the weight. This method can identify the importance of the index according to its own differences. The greater the difference, the greater the importance. (Ma, 2019)
 
+![](https://github.com/Ziyue-Feng/COLL-150-DATA-SCIENCE-WORK/raw/master/%E6%88%AA%E5%B1%8F2020-11-15%20%E4%B8%8B%E5%8D%889.03.50.png)
+
 where QRL is the quality of rural life; Bu is the value of the uth Item; Wu is the weight of the uth Item; Zi is the standardized value of the ith index; Wi is the weight of the ith index. The greater the value of QRL is, the higher the QRL is. 
 
 ## Relative Poverty Index(RPI)
 
 Another more economical dimension for poverty assessment will basically rely on the poverty line and income situation. This research will attempt to measure the level of economic development in a region by measuring the differences between the rural per capita net income/rural per capita GDP/rural per capita fiscal revenue of this region and the corresponding average levels of the province, respectively. On this basis, the relative poverty index (RPI) of a region can be measured. The specific calculations and procedures are as follows: 
 
-
+![](https://github.com/Ziyue-Feng/COLL-150-DATA-SCIENCE-WORK/raw/master/%E6%88%AA%E5%B1%8F2020-11-15%20%E4%B8%8B%E5%8D%885.32.18.png)
+![](https://github.com/Ziyue-Feng/COLL-150-DATA-SCIENCE-WORK/raw/master/%E6%88%AA%E5%B1%8F2020-11-15%20%E4%B8%8B%E5%8D%885.32.25.png)
 
 where RPIr denotes the relative poverty index of the rth county, and the greater the value of RPI, the higher the relative poverty level of this county; PFr denotes the gap ratio of the rural per capita fiscal revenue of the rth county, Fk is a constant (Fk = 3106 Yuan), indicating the rural per capita fiscal revenue of the province, and Fr is the rural per capita fiscal revenue of the rth county; PGr denotes the gap ratio of the rural per capita GDP of the rth county, Gk is a constant (Gk = 27,600 Yuan), indicating the rural per capita GDP of the province, and Gi denotes the rural per capita GDP of the rth county; PIr denotes the gap ratio of the rural per capita net income of the rth county, Ik is a constant (Ik = 9951 Yuan), indicating the rural per capita net income of the province, and Ir denotes the rural per capita net income of the rth county. (Ma, 2019)
 
@@ -50,27 +56,7 @@ where RPIr denotes the relative poverty index of the rth county, and the greater
 
 On the basis of comprehensive comparison, this study uses the Importance–Performance Analysis (IPA) method to carry out the correlation analysis between the two, and identifies the poverty-stricken areas according to the IPA analysis chart. IPA was first proposed by Martilla and James in 1977 (Sun,2015). The basic idea is that a customer′s satisfaction with a product (or service) is determined by the importance that he or she attaches to its attributes and his or her judgment of attribute performance. IPA was first used in the marketing industry to evaluate corporate brands, products and services. Due to its simple operation, IPA has currently been widely used in various fields. The analysis results are often represented as IPA charts. An IPA chart is usually divided into four areas: high-high area (the first quadrant), high-low area (the second quadrant), low-low area (the third quadrant) and low-high area (the fourth quadrant). Generally, if the characteristic of the data of a region is located in the high RPI-low QRL area, it will be identified as a real poverty region. (Ma, 2019)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](https://github.com/Ziyue-Feng/COLL-150-DATA-SCIENCE-WORK/raw/master/%E6%88%AA%E5%B1%8F2020-11-15%20%E4%B8%8B%E5%8D%882.25.37.png)
 
 
 
